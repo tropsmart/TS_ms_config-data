@@ -15,8 +15,8 @@ spring:
       path: /console
   datasource:
     url: jdbc:mysql://localhost:3306/cargoservice?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
-      username: root
-      password: pass
+    username: root
+    password: pass
   jpa:
     hibernate:
       ddl-auto: update
